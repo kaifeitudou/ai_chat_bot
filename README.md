@@ -54,7 +54,7 @@ qwen = ChatOpenAI(
 ### 3. 运行应用
 
 ```bash
-python app.py
+python ai_chat_bot.py
 ```
 
 启动后，终端会输出一个本地 URL（通常为 `http://127.0.0.1:7860`），在浏览器中打开即可体验。
@@ -80,7 +80,7 @@ python app.py
 
 ```text
 .
-├── app.py              # 主程序入口 (Gradio UI + 核心业务逻辑)
+├── ai_chat_bot.py      # 主程序入口 (Gradio UI + 核心业务逻辑)
 ├── models.py           # LLM 模型实例配置
 ├── chat_history.db     # SQLite 聊天记录数据库 (运行后自动生成)
 └── README.md           # 项目说明文档
